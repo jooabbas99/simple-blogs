@@ -1,0 +1,74 @@
+/* This is Comment */
+ body {
+    margin: 0px;
+ }
+
+/* NAV LINKS STYLE  */
+.nav-link {
+    background-color: black;
+    /* top right */
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link-item {
+     /* name  */
+    color: whitesmoke ;
+    margin: 5px;
+
+    /* vertical-align: middle; */
+    
+    /* RGB => 0 - 255 */
+    /* color : rgb(135, 103, 172); */
+
+    /* HEX */
+    /* color: #8767ac; */
+
+    /* padding: 10px;
+    margin: 10px;
+    border: 10px solid red; */
+}
+
+.div1 {
+    border: 5px solid red;
+    padding: 10px;
+    background-color: aquamarine;
+}
+.div2 {
+    border: 5px solid blue;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+
+.home-img {
+
+    background-image:url('../img/home-img.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-img-btn{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: rgb(255,255,255,0.6);
+    border-radius:8px;
+    
+}
+.home-img-btn:hover{
+    color: orange;
+    background-color: rgb(255,255,255,1);
+}
+.home-img-btn::after{
+    font-weight: bold;
+}
+/* MAIN STYLE */
+
+
+/* FOOTER STYLE */
